@@ -76,7 +76,7 @@ def format_news_to_markdown(news):
         markdown += f"## {item['title']}\n\n"
         markdown += f"Published: {formatted_date}\n\n"
         markdown += f"{item['short_desc']}\n\n"
-        markdown += f"![Image]({item['image_url']})\n\n"
+        # markdown += f"![Image]({item['image_url']})\n\n"
     return markdown
 
 def update_readme(news_items):
